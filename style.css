@@ -1,0 +1,70 @@
+*{
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;}
+
+
+#dato {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#boton{
+    border-radius: 12px;
+color: black;
+background-color: orange;
+font-weight: bolder;
+}
+
+#nombreDigimon{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+#nivelDigimon{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+    
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.primero{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+img:hover{
+    transform: rotateY(45deg);
+}
+.segundo{
+    text-align: center;
+    perspective: 1000px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.tercero{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+    
